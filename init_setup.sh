@@ -5,4 +5,4 @@ conda activate
 #install libraries
 pip install -r requirements.txt
 #push to conda.yaml
-conda export > conda.yaml
+conda env export > conda.yaml
